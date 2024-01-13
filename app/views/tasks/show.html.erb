@@ -1,0 +1,5 @@
+<h2>  Mark as done </h2>
+<p> title: <%= @task.title%></p>
+<p> details: <%= @task.details%></p>
+
+<%= link_to "Delete", task_path(@task), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}%>

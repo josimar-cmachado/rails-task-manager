@@ -1,18 +1,18 @@
-namespace :title: do
+namespace :title do
   desc "TODO"
   task string: :environment do
   end
 
   desc "TODO"
-  task details:: :environment do
+  task details: :environment do
   end
 
   desc "TODO"
-  task string,: :environment do
+  task string: :environment do
   end
 
   desc "TODO"
-  task completed:: :environment do
+  task completed: :environment do
   end
 
   desc "TODO"
